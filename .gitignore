@@ -1,0 +1,6 @@
+node_modules
+result.json
+yarn.lock
+netfieldexports.txt
+netGuidToPathName.txt
+notReadingGroups.txt

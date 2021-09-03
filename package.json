@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "fortnite-replay-parser": "git+https://github.com/xNocken/replay-reader.git"
+  }
+}
