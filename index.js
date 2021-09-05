@@ -11,6 +11,7 @@ const fs = require('fs');
     handleEventEmitter,
     customNetFieldExports: NetFieldExports,
     onlyUseCustomNetFieldExports: true,
+    customClassPath: 'Classes',
   });
   console.timeEnd();
 
