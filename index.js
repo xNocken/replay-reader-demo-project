@@ -1,6 +1,7 @@
 const replayReader = require('fortnite-replay-parser');
 const handleEventEmitter = require('./exports/handleEventEmitter');
 const NetFieldExports = require('./NetFieldExports');
+const customClasses = require('./Classes');
 const fs = require('fs');
 
 (async () => {
@@ -11,7 +12,7 @@ const fs = require('fs');
     handleEventEmitter,
     customNetFieldExports: NetFieldExports,
     onlyUseCustomNetFieldExports: true,
-    customClassPath: 'Classes',
+    customClasses,
   });
   console.timeEnd();
 
